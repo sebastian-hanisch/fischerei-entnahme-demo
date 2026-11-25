@@ -1,7 +1,6 @@
 # Fischerei und Wild: Wie viel entnehmen? Quote, Aufwand oder Schwelle – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-fischerei-entnahme-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-fischerei-entnahme-demo.streamlit.app/)**
 
 Fall-Demo für die Website „Sebastian Hanisch – Operations Research und Machine Learning“ (`demos.html`). Ein Bestand (Fisch oder Wild) wächst nach einer logistischen Wachstumsfunktion mit **Wachstumsrauschen**, und jedes Jahr wird ein Teil entnommen. Verglichen werden vier Entnahmeregeln: eine feste **Quote** (Menge je Jahr), ein fester **Aufwand** (Anteil des Bestands), eine **Escapement-Schwelle** (alles, was der gemessene Bestand über einer Schwelle liegt) und eine **gedämpfte Schwelle** (ein Anteil davon, zwei Regler). Die Schwellenregeln lesen einen **Survey** mit **Messrauschen**, Quote und Aufwand lesen ihn nicht. Jede Regel wird fair auf getrennten Trainingspfaden abgestimmt und auf frischen Testpfaden bewertet, immer mit dem **Kollaps** neben dem Fang. Als Referenz dient die Wertiteration (das Optimum bei vollem Wissen über den Bestand), und ein vorgerechnetes Raster zeigt, **wo die Reihenfolge von Escapement und festem Aufwand kippt**. Ein Tab „Von Hand“ rechnet das Modell ohne Zufall in exakten Brüchen.
 
